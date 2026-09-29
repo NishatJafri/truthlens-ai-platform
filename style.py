@@ -72,9 +72,9 @@ def load_css():
     font-weight: 600;
     }
     
-    [data-testid="stHeader"]{
+    /*[data-testid="stHeader"]{
     display:none;
-    }
+    }*/
 
     </style>
     """, unsafe_allow_html=True)
