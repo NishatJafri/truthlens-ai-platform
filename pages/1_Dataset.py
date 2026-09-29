@@ -14,7 +14,7 @@ uploaded_file = st.file_uploader("Upload CSV Dataset", type=["csv"])
 
 if uploaded_file:
 
-    data = pd.read_csv(uploaded_file)
+    data = pd.read_csv(uploaded_file, encoding="latin1")
 
     st.session_state["dataset"] = data
 
